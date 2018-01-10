@@ -42,7 +42,7 @@ namespace CryptoScheduler
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             //eventLog1.WriteEntry("Time Elapsed", EventLogEntryType.Information, eventId++);
-            TimeSpan start = new TimeSpan(11, 00, 0);
+            TimeSpan start = new TimeSpan(23, 00, 0);
             TimeSpan end = new TimeSpan(6, 30, 0);
             TimeSpan now = DateTime.Now.TimeOfDay;
 
